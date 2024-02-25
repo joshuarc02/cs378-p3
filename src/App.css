@@ -1,0 +1,115 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+body {
+  color: black;
+  background-color: #f8d8da;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#logo {
+  border-radius: 1rem;
+  height: 20vh;
+  width: auto;
+  object-fit: fill;
+}
+
+.logo-row { 
+  margin: 1vh 5vw 0 5vw;
+}
+
+#fancy_catchline {
+  font-size: min(8vmin, 3rem);
+  font-family: "Brush Script MT", cursive;
+  color: #054c44;
+  padding: 0;
+}
+
+#review_catchline {
+  font-size: min(4vmin, 2rem);
+  padding: 0;
+}
+
+.items {
+  padding: 1vh 0vw 8vh 0vw;
+  margin: 0 1vw 0 1vw;
+  width: 98vw;
+}
+
+.item {
+  border-style: outset;
+  border-width: medium;
+  border-radius: 1rem;
+  border-color: #054c44;
+  padding: .5vh 0;
+  margin: .5vh 0;
+  font-size: min(4vmin, 1rem);
+}
+
+.pic {
+  border-radius: 1rem;
+  padding: 0vh .5vw;
+  height: 17.5vh;
+  width: auto;
+}
+
+.item-text {
+  padding: 0vh 2vw 0vh 1vw;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: min(6vmin, 2rem);
+}
+
+.desc {
+  font-weight: lighter;
+}
+
+.cost {
+  font-weight: bolder;
+}
+
+.btn {
+  width: fit-content;
+}
+
+.btn-primary {
+  --bs-btn-bg: #f8b3a5;
+  --bs-btn-border-color: #faaca4;
+  --bs-btn-hover-bg: #faaca4;
+  --bs-btn-hover-border-color: #fff;
+  --bs-btn-active-bg: #6f9705;
+  --bs-btn-active-border-color: #013631;
+  --bs-btn-disabled-bg: #808080;
+  --bs-btn-disabled-border-color: #808080;
+}
+
+footer {
+  background-color: #f8d8da;
+  border-style: solid;
+  border-color: #054c44;
+  border-width: medium;
+  border-bottom: 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+  padding: 1vh 1vw;
+}
+
+.modal {
+  backdrop-filter: blur(15px);
+}
+
+.modal-content{
+  border-width: medium;
+  border-radius: 1rem;
+  border-color: #054c44;
+}
