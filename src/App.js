@@ -105,7 +105,7 @@ function App() {
   }
 
   return (
-    <div class="d-flex flex-column h-100">
+    <div class="d-flex flex-column">
       <OrderPopup counts={counts} menuItems={menuItems}/>
       <MenuHeader />
       <div className="items">
